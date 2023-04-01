@@ -1,130 +1,137 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li {
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: normal;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form label {
-    margin-bottom: 5px;
-  }
-  
-  form input,
-  form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+p {
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Adjust the header */
+  .header {
+    padding: 80px 0;
   }
 
-  /* Small devices (phones, 576px and up) */
-@media (min-width: 576px) {
-    /* Adjust the header */
-    .header {
-      padding: 80px 0;
-    }
-    
-    /* Adjust the font size of the h1 */
-    h1 {
-      font-size: 60px;
-    }
-    
-    /* Adjust the font size of the paragraph */
-    p {
-      font-size: 18px;
-    }
-    
-    /* Adjust the size of the portfolio items */
-    .portfolio-item {
-      width: 45%;
-    }
+  /* Adjust the font size of the h1 */
+  h1 {
+    font-size: 60px;
   }
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    /* Adjust the font size of the h1 */
-    h1 {
-      font-size: 70px;
-    }
-    
-    /* Adjust the font size of the paragraph */
-    p {
-      font-size: 20px;
-    }
-    
-    /* Adjust the size of the portfolio items */
-    .portfolio-item {
-      width: 30%;
-    }
+
+  /* Adjust the font size of the paragraph */
+  p {
+    font-size: 18px;
   }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    /* Adjust the font size of the h1 */
-    h1 {
-      font-size: 80px;
-    }
-    
-    /* Adjust the font size of the paragraph */
-    p {
-      font-size: 22px;
-    }
-    
-    /* Adjust the size of the portfolio items */
-    .portfolio-item {
-      width: 25%;
-    }
+
+  /* Adjust the size of the portfolio items */
+  .portfolio-item {
+    width: 45%;
   }
-  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Adjust the font size of the h1 */
+  h1 {
+    font-size: 70px;
+  }
+
+  /* Adjust the font size of the paragraph */
+  p {
+    font-size: 20px;
+  }
+
+  /* Adjust the size of the portfolio items */
+  .portfolio-item {
+    width: 30%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Adjust the font size of the h1 */
+  h1 {
+    font-size: 80px;
+  }
+
+  /* Adjust the font size of the paragraph */
+  p {
+    font-size: 22px;
+  }
+
+  /* Adjust the size of the portfolio items */
+  .portfolio-item {
+    width: 25%;
+  }
+}
