@@ -67,4 +67,64 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid;
-  }  
+  }
+
+  /* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Adjust the header */
+    .header {
+      padding: 80px 0;
+    }
+    
+    /* Adjust the font size of the h1 */
+    h1 {
+      font-size: 60px;
+    }
+    
+    /* Adjust the font size of the paragraph */
+    p {
+      font-size: 18px;
+    }
+    
+    /* Adjust the size of the portfolio items */
+    .portfolio-item {
+      width: 45%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    /* Adjust the font size of the h1 */
+    h1 {
+      font-size: 70px;
+    }
+    
+    /* Adjust the font size of the paragraph */
+    p {
+      font-size: 20px;
+    }
+    
+    /* Adjust the size of the portfolio items */
+    .portfolio-item {
+      width: 30%;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Adjust the font size of the h1 */
+    h1 {
+      font-size: 80px;
+    }
+    
+    /* Adjust the font size of the paragraph */
+    p {
+      font-size: 22px;
+    }
+    
+    /* Adjust the size of the portfolio items */
+    .portfolio-item {
+      width: 25%;
+    }
+  }
+  
